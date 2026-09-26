@@ -242,13 +242,6 @@ All admin endpoints require an `Authorization: Bearer <token>` header. Full inte
 5. Only **one admin role** exists (no multi-admin management UI), matching the spec's "Admin should be able to log in securely" requirement without requiring admin user management.
 6. Deleting a product also removes any cart items referencing it (cascade), since a deleted product can no longer be purchased.
 
-## Screenshots
-
-> _Add screenshots of the Admin and Customer portals here, e.g.:_
-
-| Customer — Product Listing | Customer — Cart | Admin — Product List |
-|---|---|---|
-| ![Product Listing](docs/screenshots/product-listing.png) | ![Cart](docs/screenshots/cart.png) | ![Admin Products](docs/screenshots/admin-products.png) |
 
 ## License
 
